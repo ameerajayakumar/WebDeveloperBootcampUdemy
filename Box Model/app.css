@@ -1,0 +1,48 @@
+body{
+    margin:0;
+}
+div{
+    width: 250px;
+    height: 200px;
+}
+#one{
+    background-color: #fec5bb;
+    border-width: 3px;
+    border-color: grey;
+    border-style: ridge;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+
+}
+#two{
+    background-color: #fcd5ce;
+    border-width: 3px;
+    border-color: grey;
+    border-style: solid;
+   border-left-color:purple;
+   padding-top: 20px;
+   margin-bottom: 20px;
+}
+#three{
+    background-color: #fae1dd;
+    border-width: 3px;
+    border-color: grey;
+    border-style: dashed;
+    border-radius: 5% / 30%;
+}
+#four{
+    background-color: #f8edeb;
+    border-width: 5px;
+    border-color: grey;
+    border-style: groove;
+    border-radius: 5% 30%;
+    padding: 10px 20px;  
+}
+#five{
+    background-color: #e8e8e4;
+    border:5px dotted yellow;
+    border-radius: 30px;
+}

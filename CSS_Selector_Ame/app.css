@@ -1,0 +1,67 @@
+*{
+    color: black;
+}
+button,h1{
+    color: yellowgreen;
+}
+#searchid{
+    color: darkmagenta;
+}
+#register{
+    color: whitesmoke;
+    background-color: indigo;
+    font-size: large;
+}
+span{
+    color: wheat;
+}
+.tags{
+    color: black;
+    font-size: small;
+    background-color: darkseagreen;
+}
+.post a{
+    color:wheat;
+}
+footer a {
+    color: rosybrown;
+}
+input+button{
+    background-color: pink;
+}
+h2+button{
+    color: plum;
+    background-color: rebeccapurple;
+}
+footer>a{
+    color: burlywood;
+}
+input[type="password"]{
+    color: chartreuse;
+    border-color: crimson;
+}
+a[href*="#"]:hover{
+    color: cyan;
+}
+
+a:active{
+    color:rgb(179, 0, 179);
+}
+
+.post {
+    background-color: plum;
+}
+.post:nth-of-type(2n) {
+    background-color: rgb(223, 195, 223);
+}
+h2::first-letter{
+    color:purple;
+    font-size: 30px;
+}
+p::first-line{
+    color: green;
+}
+p::selection{
+    background-color: hotpink;
+}
+/*.post button:hover{}*/

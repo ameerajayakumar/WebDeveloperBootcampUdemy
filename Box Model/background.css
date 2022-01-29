@@ -1,0 +1,13 @@
+section{
+    background-image: url("https://images.unsplash.com/photo-1576074527871-b9552068727d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1301&q=80");
+    margin: 0 auto;
+    width: 80%;
+    height: 1000px;
+    background-size: cover;
+}
+
+h1{
+    font-size: 100px;
+    color: ghostwhite;
+    font-family: 'Gloria Hallelujah', cursive;
+}

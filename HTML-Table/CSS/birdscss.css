@@ -1,0 +1,24 @@
+h2{
+    color:rgb(95, 157, 214);
+    text-align: center;
+    font-weight: 900;
+    text-decoration: underline double;
+}
+p{
+    text-align: right;
+    font-weight: normal;
+    text-decoration: overline dotted pink;
+    line-height: 2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h3{
+    text-transform: uppercase;
+    font-family: monospace;
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 20px;
+    text-decoration: underline wavy plum;
+
+}

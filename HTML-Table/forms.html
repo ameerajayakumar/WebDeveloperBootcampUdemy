@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms!</h1>
+    <form action="https://www.reddit.com/search/">
+        <p>
+            <label for="username">Enter Username:</label>
+            <input type="text" placeholder="username" id="username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter Password:</label>
+            <input type="password" placeholder="password" id="password">
+        </p>
+        <p>
+            <label for="age">Enter Age:</label>
+            <input type="number" placeholder="Enter a number" id="age">
+        </p>
+        <p>
+            <label for="color">Select Color:</label>
+            <input type="color" id="color">
+        </p>
+        <p>
+            <!-- input can be nested inside the label element also -->
+            <label f>Volume
+                <input type="range" min="1" max="10" name="vol"> </label>
+            <button>
+                Submit
+            </button>
+        </p>
+        <p>
+
+
+            <label for="search"> Search Reddit</label>
+            <input type="text" id="search" name="q">
+            <button>Search</button>
+        </p>
+    </form>
+
+    <hr>
+    <h2>More Inputs</h2>
+    <form action="/tacos">
+        <input type="checkbox" id="agree_tos" name="agree" checked>
+        <label for="agree_tos"> Agree </label>
+        <input type="checkbox" id="disagree_tos" name="disagree">
+        <label for="disagree_tos"> Disagree </label>
+
+        <h3>Gender</h3>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male"> Male </label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female"> Female </label>
+        <input type="radio" id="trans" name="gender" value="trans">
+        <label for="trans"> Trans </label>
+        <br>
+        <label for="pets">Any Pets? </label>
+
+        <select name="pets" id="pets">
+            <option value="">--Choose an option--</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="parrot">Parrot</option>
+        </select>
+        <button>Submit</button>
+    </form>
+    <hr>
+    <form action="/dummy">
+        <label for="first">Enter First Name:</label>
+        <input type="text" name="name" id="first" required>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

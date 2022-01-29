@@ -1,0 +1,52 @@
+h1{
+    color: rgb(54, 54, 53);
+    background-color: #cdb4db;
+    border: 2px solid dimgray;
+    padding: 3px;
+    width: 300px;
+    
+    font-size: medium;
+    text-align: center;
+    margin:20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+h1:nth-of-type(2n){
+background-color: #ffc8dd;
+}
+h1:nth-of-type(3n){
+    background-color: #ffafcc;
+}
+h1:nth-of-type(4n){
+    background-color: #bde0fe;
+}
+h1:nth-of-type(5n){
+    background-color: #a2d2ff;
+}
+section:first-of-type h1:nth-of-type(1){
+    transform:rotate(30deg);
+}
+section:first-of-type h1:nth-of-type(2){
+    transform:scale(0.5);
+}
+section:first-of-type h1:nth-of-type(3){
+    transform: translate(20px);
+}
+section:first-of-type h1:nth-of-type(4){
+    transform: skew(50deg);
+}
+section:first-of-type h1:nth-of-type(5){
+    transform: translate(-20px);
+}
+section:nth-of-type(2) h1:nth-of-type(1){
+    transform: translate(200px,100px);
+}
+section:nth-of-type(2) h1:nth-of-type(2){
+    transform: skew(20deg,10deg);
+}
+section:nth-of-type(2) h1:nth-of-type(3){
+    transform: skew(20deg,10deg) rotate(20deg) scale(1.3);
+}
+section:nth-of-type(2) h1:nth-of-type(4){
+    transform: rotate(0.5turn) translate(-300px) scaleY(2.5);
+}
