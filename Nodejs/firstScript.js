@@ -1,4 +1,4 @@
 const args = process.argv.slice(2);
 for(let arg of args){
-    console.log(`Hi There... ${arg}`);
+    console.log(`Hi There... ${arg});
 }
